@@ -24,7 +24,7 @@ Use this skill to turn a public trader post history into a reusable research mod
    - Accept CSV, JSON, JSONL, TXT, or Markdown exports.
    - Prefer columns: `created_at`, `text`, `url`, `ticker`, `quoted_text`, `theme`, `evidence_types`, `supply_chain_role`, `engagement_score`.
    - Record data source, retrieval date, and missing coverage.
-   - For stable collection and normalization, use `collectors/stable_collectors.py` and the guide `../DATA_COLLECTION_STABLE_zh.md`.
+   - For stable collection and normalization, use `collectors/stable_collectors.py` and the guide `references/data_collection_stable_zh.md`.
    - Prefer official API exports, user-owned exports, Apify/managed scraper exports, RSS feeds, and public article archives over DIY X page scraping.
    - If the user has already logged into X in a local browser, a browser-assisted fallback can be used with `collectors/browser_scroll_cdp.mjs`. Launch Edge/Chrome with a local CDP port, navigate logged-in X search/profile pages, and export visible posts into the same `posts.csv` contract. Treat this as a partial capture unless it is date-windowed and reviewed.
 
