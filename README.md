@@ -401,3 +401,9 @@ python .\scripts\x_trader_builder.py auto-review `
 `x-trader-skill-builder` 不是“跟单工具”，而是一个“交易员研究方法逆向工程工具”。
 
 它把一个交易员公开历史内容中的噪声剔除掉，留下真正可复用的研究结构，再把这个结构变成后续 Agent Skill 生成的基础。
+
+## License / 许可证
+
+This project is licensed under the GNU General Public License v3.0. See [LICENSE](LICENSE).
+
+本项目使用 GNU General Public License v3.0（GPL-3.0）协议发布，详见 [LICENSE](LICENSE)。

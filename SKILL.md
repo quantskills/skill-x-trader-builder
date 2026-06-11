@@ -7,6 +7,7 @@ quantSkills:
   repository_url: https://github.com/quantskills/skill-x-trader-builder
   project_type: skill
   collection: trader-research-models
+  license: GPL-3.0
 ---
 
 # X Trader Skill Builder
