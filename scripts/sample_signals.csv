@@ -1,0 +1,4 @@
+signal_id,created_at,author,url,ticker,text,quoted_author,quoted_text,theme,evidence_types,supply_chain_role,risk_markers,conviction_score,engagement_score
+s1,2026-01-01,trader,https://x.com/example/status/1,ABCD,"$ABCD is a bottleneck supplier for AI power delivery. Customer capex is rising, backlog is extending, and the market still treats it like a generic component maker. Risk is multi-sourcing.",,,ai-infrastructure,customer-capex;technical-constraint,component,risk,4,1000
+s2,2026-01-02,trader,https://x.com/example/status/2,WXYZ,"Great question. I will start doing DD on this crowdsourced robotics watchlist.",other,"Best ideas? $WXYZ $ROBO",robotics-physical-ai,customer-capex,component,,1,800
+s3,2026-01-03,trader,https://x.com/example/status/3,MOON,"YTD: 400%. Do you remember when I called $MOON at the lows?",,,crypto,price-volume,,risk,2,1200

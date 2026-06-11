@@ -1,0 +1,4 @@
+interface:
+  display_name: "X Trader Skill Builder"
+  short_description: "Build trader research skills."
+  default_prompt: "Use $x-trader-skill-builder to turn a trader public X post history into a reusable research-model Skill."

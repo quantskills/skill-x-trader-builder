@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.env
+.venv/
+venv/
+node_modules/
+real_runs/
+browser_profiles/
+sources/
+outputs/
+*.html
+*.log
