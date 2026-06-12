@@ -1,6 +1,12 @@
 ---
 name: x-trader-skill-builder
-description: Build trader-specific research-model agent skills from public X/Twitter post datasets, exported timelines, saved threads, signal CSVs, and quote-aware review files. Use when an agent needs to reverse-engineer an X trader's investment logic, separate forward-looking thesis posts from quote-only or retrospective performance posts, generate clean signal datasets, derive a high-quality thesis template, or prepare a reusable trader-specific agent skill for platforms such as Claude Code, OpenClaw, Codex-style skill systems, or other local AI agent runtimes.
+description: Build trader-specific research-model agent skills from public X/Twitter
+  post datasets, exported timelines, saved threads, signal CSVs, and quote-aware review
+  files. Use when an agent needs to reverse-engineer an X trader's investment logic,
+  separate forward-looking thesis posts from quote-only or retrospective performance
+  posts, generate clean signal datasets, derive a high-quality thesis template, or
+  prepare a reusable trader-specific agent skill for platforms such as Claude Code,
+  OpenClaw, Codex-style skill systems, or other local AI agent runtimes.
 quantSkills:
   organization: https://github.com/quantskills
   repository: quantskills/skill-x-trader-builder
@@ -8,6 +14,25 @@ quantSkills:
   project_type: skill
   collection: trader-research-models
   license: GPL-3.0
+  category: tooling
+  tags:
+  - trader-skill
+  - research-model
+  - x-twitter
+  - skill-builder
+  - workflow
+  platforms:
+  - claude-code
+  - codex
+  - openclaw
+  - cursor
+  status: stable
+  validation_level: runnable
+  maintainer_type: official
+  summary_zh: 把任意 X/Twitter 公开交易员的发帖历史，加工成 trader 专属的研究模型 Skill：init-run → 采集 → extract
+    → auto-review → split → evaluate → template → report 九步流水线，从噪...
+  summary_en: Skill-builder workflow for turning public X/Twitter data and user materials
+    into trader-specific research-model skills.
 ---
 
 # X Trader Skill Builder
