@@ -35,6 +35,32 @@ quantSkills:
     into trader-specific research-model skills.
 ---
 
+```json qsh-form
+{
+  "version": 1,
+  "task": {
+    "placeholder": "请提供交易员名称、X/Twitter 帖文导出或数据路径，并说明时间范围与期望产物",
+    "required": true
+  },
+  "fields": [
+    {
+      "key": "trader",
+      "label": "交易员名称",
+      "type": "text",
+      "placeholder": "公开账号名或研究模型名称",
+      "required": true
+    },
+    {
+      "key": "focus",
+      "label": "提炼重点",
+      "type": "text",
+      "placeholder": "如：前瞻信号、主题机制、催化剂、风险与跟踪指标"
+    }
+  ],
+  "prompt_template": "{{#task}}任务与材料：\n{{task}}\n\n{{/task}}{{#attachments}}用户上传的材料（已放入工作区）：\n{{attachments}}\n\n{{/attachments}}请把交易员 {{trader}} 的公开 X/Twitter 帖文历史加工为可复用研究模型{{#focus}}，重点提炼 {{focus}}{{/focus}}；区分本人观点、引用内容、前瞻论点与事后业绩，完成抽取、语义复核、数据集拆分、适用时的前瞻收益评估、论点模板和专属 Skill 素材，输出中文报告。"
+}
+```
+
 # X Trader Skill Builder
 
 Use this skill to turn a public trader post history into a reusable research model. It generalizes the Serenity MVP workflow: clean noisy public posts, label semantic intent, isolate forward-looking signals, extract high-quality thesis patterns, and prepare the ingredients for a trader-specific agent skill.
