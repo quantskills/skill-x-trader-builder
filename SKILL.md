@@ -1,5 +1,5 @@
 ---
-name: x-trader-skill-builder
+name: x-trader-builder
 description: Build trader-specific research-model agent skills from public X/Twitter
   post datasets, exported timelines, saved threads, signal CSVs, and quote-aware review
   files. Use when an agent needs to reverse-engineer an X trader's investment logic,
